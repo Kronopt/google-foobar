@@ -4,10 +4,11 @@ But she never bothered to follow intergalactic standards for workplace accommoda
 navigating her space station. You figure printing out Braille signs will help them, and - since you'll be promoting
 efficiency at the same time - increase your chances of a promotion.
 
-Braille is a writing system used to read by touch instead of by sight. Each character is composed of 6 dots in a 2x3
-grid, where each dot can either be a bump or be flat (no bump). You plan to translate the signs around the space station
-to Braille so that the minions under Commander Lambda's command can feel the bumps on the signs and ""read"" the text
-with their touch. The special printer which can print the bumps onto the signs expects the dots in the following order:
+Braille is a writing system used to read by touch instead of by sight. Each character is composed of `6 dots` in a `2x3
+grid`, where each dot can either be a `bump` or be `flat` (no bump). You plan to translate the signs around the space
+station to Braille so that the minions under Commander Lambda's command can feel the bumps on the signs and ""read"" the
+text with their touch. The special printer which can print the bumps onto the signs expects the dots in the following
+order:
 
 ```
 1 4
@@ -43,9 +44,8 @@ Your code should pass the following test cases. Note that it may also be run aga
 Use `verify [file]` to test your solution and see how it does. When you are finished editing your code, use
 `submit [file]` to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
 
-
 # Constraints
-Your code will run inside a Python 2.7.13 sandbox. All tests will be run by calling the solution() function.
+Your code will run inside a `Python 2.7.13` sandbox. All tests will be run by calling the solution() function.
 
 Standard libraries are supported except for bz2, crypt, fcntl, mmap, pwd, pyexpat, select, signal, termios, thread,
 time, unicodedata, zipimport, zlib.
