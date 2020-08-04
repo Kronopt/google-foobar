@@ -40,13 +40,13 @@ class TestSolution(unittest.TestCase):
         self.assertEqual(solution.solution([1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1]), "1")
 
     def test12(self):
-        self.assertEqual(solution.solution([1000]*50), "1" + "0"*150)
+        self.assertEqual(solution.solution([1000] * 50), "1" + "0" * 150)
 
     def test13(self):
-        self.assertEqual(solution.solution([-1000]*50), "1" + "0"*150)
+        self.assertEqual(solution.solution([-1000] * 50), "1" + "0" * 150)
 
     def test14(self):
-        self.assertEqual(solution.solution([-1000]*49), "-1" + "0"*147)
+        self.assertEqual(solution.solution([-1000] * 49), "-1" + "0" * 147)
 
     def test15(self):
         self.assertEqual(solution.solution([-13, 0]), "0")
